@@ -1,0 +1,27 @@
+# 90s Piano House Riffs is a note-only MIDI study pack
+
+Eight 16-bar hooks, a matched byte check, and a simple-synth preview that is not a master
+
+DRAFT. The GitHub repository is https://github.com/mizcausevic-dev/90s-piano-house-riffs and it is public. The catalog page is https://mizcausevic-dev.github.io/90s-piano-house-riffs/ .
+
+Tags: midi, house, piano, music-production, composition
+
+The pack is eight piano-house studies in 4/4. Tempos sit between 118 and 130 BPM. Every study is 16 bars, chosen before the notes, and split into a hook, an answer, a thinner stretch, and a phrase ending. Each study has two piano variations. That is the core: sixteen files. Each study also has two bass references. Those sixteen files are not part of the core count, and they are not merged into the piano files.
+
+A variation has to change the riff. Holding the same voicing and only editing velocity does not count. Offbeat Ninth stabs on the ands, breaks to two notes, and cadences on Em7. Sixteen Cell is a three-note 16th figure that lands on a downbeat. Downbeat Plate holds the last chord for four bars. Three Then Two groups attacks as three plus two, and variation B delays them. Late Answer waits until beat 2, then pushes early and adds the ninth. Dotted Stab is a long chord plus a 16th answer. One Stab leaves most of the bar empty until the ending doubles it. Run and Hold starts with sixteen 16ths and ends on a two-bar chord.
+
+Piano notes stay between MIDI 48 and 84, with at most six sounding. Notes below 60 are the left hand. Notes from 60 up are the right-hand hook. That split is a studio-layering assumption inside one file. Bass stays between 28 and 50 and is monophonic. C4 is 60. The resolution is 960 ticks per quarter note. There is no swing offset. Velocity climbs 72, 84, 96, 112 across each four bars, and the ending sits higher. These riffs are original. They are not reconstructions of known sampled hooks.
+
+No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.
+
+Chorus, filters, and sampler stacks are not in the files. The preview synth uses a sine plus a quiet triangle for the piano and a sine for the bass. That mapping is documented. It is not a program change.
+
+The primary preview is study 01, Offbeat Ninth, variation A, for all 16 bars: the piano file and bass reference A together. The other studies are in the MIDI and are not in that audio file. preview, not a master. The film takes its audio from that preview file and shows the words preview, not master on the picture and in the WebVTT captions.
+
+No human listening audition was performed for this build. The validator reopened the MIDI bytes and compared them with the canonical score. That is a structural check. The sample peak written beside the preview is the peak of the integer mix. It is not LUFS and it is not a true-peak reading. Nothing in this build is claimed as a master.
+
+The stills are procedural illustrations of a piano roll whose bar height follows the accent contour. They are not photographs of a session or of performers.
+
+When a public URL exists, use either the combined arrangement or the separate parts. Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file.
+
+Call to action: the MIDI, the matched report, and the preview belong together. Do not publish this draft to Medium, Instagram, or X from the draft files alone.

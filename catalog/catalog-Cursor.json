@@ -1,0 +1,1015 @@
+{
+  "arrangement": {
+    "bpm": 122,
+    "container_ticks": 61440,
+    "description": "Study 01 variation A riff with bass reference A. The bass is not inside the piano file.",
+    "format": 1,
+    "id": "arrangement-preview-s01a",
+    "meter": "4/4",
+    "path": "midi/arrangement.mid",
+    "tempo_us": 491803,
+    "tracks": [
+      {
+        "channel": null,
+        "name": "Conductor",
+        "source_part": null
+      },
+      {
+        "channel": 0,
+        "name": "Piano Riff",
+        "source_part": "s01.riff.a"
+      },
+      {
+        "channel": 1,
+        "name": "Bass Reference",
+        "source_part": "s01.bass.a"
+      }
+    ]
+  },
+  "c4": 60,
+  "catalog_version": "1.0.0",
+  "core_part_count": 16,
+  "generator_version": "1.0.0",
+  "hand_split": 60,
+  "meter": {
+    "bar_ticks": 3840,
+    "denominator": 4,
+    "numerator": 4
+  },
+  "microtiming": "offset is 0; performed_start = nominal_start",
+  "note_policy": "note-only MIDI. Swing, chorus, and sampler layers are not encoded.",
+  "pack_id": "90s-piano-house-riffs",
+  "pack_name": "90s Piano House Riffs",
+  "parts": [
+    {
+      "bpm": 122,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s01.riff.a",
+      "monophonic": false,
+      "notes": 194,
+      "path": "midi/s01-offbeat-ninth/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s01",
+      "variation": "a"
+    },
+    {
+      "bpm": 122,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s01.riff.b",
+      "monophonic": false,
+      "notes": 134,
+      "path": "midi/s01-offbeat-ninth/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s01",
+      "variation": "b"
+    },
+    {
+      "bpm": 122,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s01.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s01-offbeat-ninth/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s01",
+      "variation": "a"
+    },
+    {
+      "bpm": 122,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s01.bass.b",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s01-offbeat-ninth/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s01",
+      "variation": "b"
+    },
+    {
+      "bpm": 126,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s02.riff.a",
+      "monophonic": false,
+      "notes": 138,
+      "path": "midi/s02-sixteen-cell/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s02",
+      "variation": "a"
+    },
+    {
+      "bpm": 126,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s02.riff.b",
+      "monophonic": false,
+      "notes": 49,
+      "path": "midi/s02-sixteen-cell/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s02",
+      "variation": "b"
+    },
+    {
+      "bpm": 126,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s02.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s02-sixteen-cell/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s02",
+      "variation": "a"
+    },
+    {
+      "bpm": 126,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s02.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s02-sixteen-cell/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s02",
+      "variation": "b"
+    },
+    {
+      "bpm": 120,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s03.riff.a",
+      "monophonic": false,
+      "notes": 77,
+      "path": "midi/s03-downbeat-plate/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s03",
+      "variation": "a"
+    },
+    {
+      "bpm": 120,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s03.riff.b",
+      "monophonic": false,
+      "notes": 104,
+      "path": "midi/s03-downbeat-plate/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s03",
+      "variation": "b"
+    },
+    {
+      "bpm": 120,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s03.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s03-downbeat-plate/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s03",
+      "variation": "a"
+    },
+    {
+      "bpm": 120,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s03.bass.b",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s03-downbeat-plate/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s03",
+      "variation": "b"
+    },
+    {
+      "bpm": 128,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s04.riff.a",
+      "monophonic": false,
+      "notes": 248,
+      "path": "midi/s04-three-then-two/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s04",
+      "variation": "a"
+    },
+    {
+      "bpm": 128,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s04.riff.b",
+      "monophonic": false,
+      "notes": 230,
+      "path": "midi/s04-three-then-two/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s04",
+      "variation": "b"
+    },
+    {
+      "bpm": 128,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s04.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s04-three-then-two/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s04",
+      "variation": "a"
+    },
+    {
+      "bpm": 128,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s04.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s04-three-then-two/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s04",
+      "variation": "b"
+    },
+    {
+      "bpm": 124,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s05.riff.a",
+      "monophonic": false,
+      "notes": 136,
+      "path": "midi/s05-late-answer/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s05",
+      "variation": "a"
+    },
+    {
+      "bpm": 124,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s05.riff.b",
+      "monophonic": false,
+      "notes": 139,
+      "path": "midi/s05-late-answer/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s05",
+      "variation": "b"
+    },
+    {
+      "bpm": 124,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s05.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s05-late-answer/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s05",
+      "variation": "a"
+    },
+    {
+      "bpm": 124,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s05.bass.b",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s05-late-answer/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s05",
+      "variation": "b"
+    },
+    {
+      "bpm": 118,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s06.riff.a",
+      "monophonic": false,
+      "notes": 240,
+      "path": "midi/s06-dotted-stab/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s06",
+      "variation": "a"
+    },
+    {
+      "bpm": 118,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s06.riff.b",
+      "monophonic": false,
+      "notes": 68,
+      "path": "midi/s06-dotted-stab/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s06",
+      "variation": "b"
+    },
+    {
+      "bpm": 118,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s06.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s06-dotted-stab/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s06",
+      "variation": "a"
+    },
+    {
+      "bpm": 118,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s06.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s06-dotted-stab/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s06",
+      "variation": "b"
+    },
+    {
+      "bpm": 130,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s07.riff.a",
+      "monophonic": false,
+      "notes": 64,
+      "path": "midi/s07-one-stab/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s07",
+      "variation": "a"
+    },
+    {
+      "bpm": 130,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s07.riff.b",
+      "monophonic": false,
+      "notes": 70,
+      "path": "midi/s07-one-stab/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s07",
+      "variation": "b"
+    },
+    {
+      "bpm": 130,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s07.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s07-one-stab/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s07",
+      "variation": "a"
+    },
+    {
+      "bpm": 130,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s07.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s07-one-stab/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s07",
+      "variation": "b"
+    },
+    {
+      "bpm": 125,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s08.riff.a",
+      "monophonic": false,
+      "notes": 132,
+      "path": "midi/s08-run-and-hold/riff-a.mid",
+      "role": "piano-riff",
+      "study_id": "s08",
+      "variation": "a"
+    },
+    {
+      "bpm": 125,
+      "channel": 0,
+      "container_bars": 16,
+      "core": true,
+      "id": "s08.riff.b",
+      "monophonic": false,
+      "notes": 121,
+      "path": "midi/s08-run-and-hold/riff-b.mid",
+      "role": "piano-riff",
+      "study_id": "s08",
+      "variation": "b"
+    },
+    {
+      "bpm": 125,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s08.bass.a",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s08-run-and-hold/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s08",
+      "variation": "a"
+    },
+    {
+      "bpm": 125,
+      "channel": 1,
+      "container_bars": 16,
+      "core": false,
+      "id": "s08.bass.b",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/s08-run-and-hold/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s08",
+      "variation": "b"
+    }
+  ],
+  "pitched_range": [
+    28,
+    84
+  ],
+  "ppq": 960,
+  "preview_part_ids": [
+    "s01.riff.a",
+    "s01.bass.a"
+  ],
+  "range_statement": "Piano riffs use MIDI 48 to 84, at most six notes at once. Notes below 60 are the left hand. Notes from 60 up are the right hand. Bass references are monophonic, MIDI 28 to 50, and are not part of the core count.",
+  "reference_part_count": 16,
+  "seed_meaning": "Seeds identify studies. Nothing is random.",
+  "stack_warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file.",
+  "stochastic_draws": 0,
+  "studies": [
+    {
+      "accent": "Velocity climbs 72, 84, 96, 112 across each four bars. The cadence adds 8.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 122,
+      "change_bars": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "changes": [
+        "Am9",
+        "Dm9",
+        "Am9",
+        "Em7"
+      ],
+      "collection_name": "A natural minor",
+      "departures": [],
+      "effective_bpm": 122.0000691333725,
+      "hand_split": 60,
+      "harmonic_rhythm": "Four bars each: Am9, Dm9, Am9, Em7.",
+      "id": "s01",
+      "identity": "Offbeat ninth stabs for eight bars, a two-note break, then a longer Em7 cadence. Variation B moves the stabs onto the downbeat and drops the ninth.",
+      "layering": "One piano track. Split it at C4 if you want two sampler layers. The bass reference is a third layer.",
+      "limitations": "Use bass A with riff A and bass B with riff B. The break is silence in the left hand, not a missing file.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Hook",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Lift",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Break",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Cadence",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        9,
+        11,
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "seed": 12201,
+      "slug": "s01-offbeat-ninth",
+      "stochastic_draws": 0,
+      "tempo_us": 491803,
+      "title": "Offbeat Ninth",
+      "tonal_reference": "A",
+      "tonic": "A",
+      "voicing": "Right hand is a close ninth. Left hand is a tenth-free shell under C4, and only on the first stab of even bars."
+    },
+    {
+      "accent": "The same four-bar climb. The downbeat ending is the loudest stab.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 126,
+      "change_bars": [
+        8,
+        4,
+        4
+      ],
+      "changes": [
+        "Dm",
+        "Bb",
+        "Dm11"
+      ],
+      "collection_name": "D natural minor",
+      "departures": [
+        "Variation B bar 15 uses C#4 (61) for one 16th, then returns to D."
+      ],
+      "effective_bpm": 126.000126000126,
+      "hand_split": 60,
+      "harmonic_rhythm": "Eight bars of Dm, four of Bb, four of Dm11.",
+      "id": "s02",
+      "identity": "A three-note 16th cell on the front of the bar, then the same cell on beat 3. The last two bars land on a downbeat. Variation B is a single-note answer and one flagged C#.",
+      "layering": "No left-hand notes in this study. The lower layer is the bass reference only.",
+      "limitations": "The C# is one 16th. It is not a new key.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Cell",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Answer",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Bb",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Ending",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        0
+      ],
+      "seed": 12602,
+      "slug": "s02-sixteen-cell",
+      "stochastic_draws": 0,
+      "tempo_us": 476190,
+      "title": "Sixteen Cell",
+      "tonal_reference": "D",
+      "tonic": "D",
+      "voicing": "Variation A is a three-note shell. Variation B is one note at a time until the last bar."
+    },
+    {
+      "accent": "The held ending uses the peak velocity for its whole duration.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 120,
+      "change_bars": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "changes": [
+        "Fm",
+        "Ab",
+        "Fm",
+        "Fm11"
+      ],
+      "collection_name": "F natural minor",
+      "departures": [],
+      "effective_bpm": 120.0,
+      "hand_split": 60,
+      "harmonic_rhythm": "Four bars each: Fm, Ab, Fm, Fm11.",
+      "id": "s03",
+      "identity": "A quarter-note plate on beat 1 and a short answer on the and of 2. Bars 13 to 16 are one held Fm11. Variation B starts every stab an eighth later and never holds.",
+      "layering": "Left hand enters only on the plate and the held ending.",
+      "limitations": "The hold is the phrase ending. It is one chord, not a stuck note.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Plate",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Ab",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Thin",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Hold",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        5,
+        7,
+        8,
+        10,
+        0,
+        1,
+        3
+      ],
+      "seed": 12003,
+      "slug": "s03-downbeat-plate",
+      "stochastic_draws": 0,
+      "tempo_us": 500000,
+      "title": "Downbeat Plate",
+      "tonal_reference": "F",
+      "tonic": "F",
+      "voicing": "Three-note shells, then a four-note Fm11 with the left hand on Bb3."
+    },
+    {
+      "accent": "The two-note group is louder than the three-note group because it falls later in the bar's contour.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 128,
+      "change_bars": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "changes": [
+        "Gm",
+        "Bb",
+        "Gm",
+        "D"
+      ],
+      "collection_name": "G natural minor",
+      "departures": [
+        "Variation B bar 15 beat 4 is F#4 (66), a step below G. It is one 16th."
+      ],
+      "effective_bpm": 128.0,
+      "hand_split": 60,
+      "harmonic_rhythm": "Four bars each: Gm, Bb, Gm, D.",
+      "id": "s04",
+      "identity": "Even bars are three 16ths plus two more after a rest. Odd bars move that group onto beat 2. Variation B delays every attack by one 16th and ends on F#.",
+      "layering": "Root doubling is the left hand. It is not the bass reference.",
+      "limitations": "F# is outside G natural minor and is flagged. The rest of the bar stays in the set.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Three",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Two",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Swap",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Turn",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        7,
+        9,
+        10,
+        0,
+        2,
+        3,
+        5
+      ],
+      "seed": 12804,
+      "slug": "s04-three-then-two",
+      "stochastic_draws": 0,
+      "tempo_us": 468750,
+      "title": "Three Then Two",
+      "tonal_reference": "G",
+      "tonic": "G",
+      "voicing": "Triads. The left hand doubles the root an octave down only on beat 1 of even bars in variation A."
+    },
+    {
+      "accent": "The answer half is marked louder than the late half.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 124,
+      "change_bars": [
+        8,
+        4,
+        4
+      ],
+      "changes": [
+        "Cm",
+        "Ab",
+        "Cm"
+      ],
+      "collection_name": "C natural minor",
+      "departures": [
+        "Variation B bar 15 uses E4 (64) under the final C minor stab. The E is flagged."
+      ],
+      "effective_bpm": 123.99999173333389,
+      "hand_split": 60,
+      "harmonic_rhythm": "Eight bars of Cm, four of Ab, four of Cm.",
+      "id": "s05",
+      "identity": "The first eight bars wait until beat 2. The last eight bars push an eighth early and add the ninth. Variation B anticipates by a 16th from the first bar and brightens the last stab with E.",
+      "layering": "The ninth is a right-hand note. The bass does not play it.",
+      "limitations": "The early notes in variation B stay inside the bar. Nothing starts before tick 0.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Late",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Still late",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Ab",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Arrive",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "seed": 12405,
+      "slug": "s05-late-answer",
+      "stochastic_draws": 0,
+      "tempo_us": 483871,
+      "title": "Late Answer",
+      "tonal_reference": "C",
+      "tonic": "C",
+      "voicing": "Cm shell, then Ab, then Cm add 9. Left hand on the second half only."
+    },
+    {
+      "accent": "The 16th answer is the louder of the pair because it lands on the later step of the contour.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 118,
+      "change_bars": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "changes": [
+        "Em",
+        "D",
+        "Em",
+        "B"
+      ],
+      "collection_name": "E natural minor",
+      "departures": [],
+      "effective_bpm": 117.99990166674861,
+      "hand_split": 60,
+      "harmonic_rhythm": "Four bars each: Em, D, Em, B.",
+      "id": "s06",
+      "identity": "A dotted eighth chord and a 16th answer, twice per bar. The last two bars stretch both into quarters. Variation B replaces the dot with even eighths and a single-note tail.",
+      "layering": "Left hand plays the dotted chord only. The 16th answer is right hand.",
+      "limitations": "No swing offset is written. The dot is the duration, not a feel instruction.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Dot",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "D",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Return",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "B",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        0,
+        2
+      ],
+      "seed": 11806,
+      "slug": "s06-dotted-stab",
+      "stochastic_draws": 0,
+      "tempo_us": 508475,
+      "title": "Dotted Stab",
+      "tonal_reference": "E",
+      "tonic": "E",
+      "voicing": "Em, D, Em, then B as D F# A. All of those pitch classes are inside E natural minor."
+    },
+    {
+      "accent": "Because there is one stab, the four-bar velocity climb is the whole contour.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 130,
+      "change_bars": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "changes": [
+        "Fm6",
+        "Ab",
+        "Gm",
+        "Bb"
+      ],
+      "collection_name": "F Dorian",
+      "departures": [],
+      "effective_bpm": 130.00013000013,
+      "hand_split": 60,
+      "harmonic_rhythm": "Four bars each: Fm6, Ab, Gm, Bb.",
+      "id": "s07",
+      "identity": "One stab on beat 4 for twelve bars. The ending adds a downbeat answer so the phrase closes. Variation B moves the stab to the and of 2 and fills the last bar with three chords.",
+      "layering": "Beat-4 stabs are right hand only. Variation B's last bar adds a left-hand shell.",
+      "limitations": "The empty beats are the hook. Do not quantize them into a busier riff.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Space",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Ab",
+          "start_bar": 4
+        },
+        {
+          "bars": 4,
+          "name": "Gm",
+          "start_bar": 8
+        },
+        {
+          "bars": 4,
+          "name": "Double",
+          "start_bar": 12
+        }
+      ],
+      "pitch_classes": [
+        5,
+        7,
+        8,
+        10,
+        0,
+        2,
+        3
+      ],
+      "seed": 13007,
+      "slug": "s07-one-stab",
+      "stochastic_draws": 0,
+      "tempo_us": 461538,
+      "title": "One Stab",
+      "tonal_reference": "F",
+      "tonic": "F",
+      "voicing": "Four-note Fm6 (F Ab C D). Later chords drop to three notes. The last variation B chord adds the high F."
+    },
+    {
+      "accent": "The run stays at the soft step. The hold is the peak.",
+      "bar_ticks": 3840,
+      "bars": 16,
+      "bpm": 125,
+      "change_bars": [
+        2,
+        6,
+        6,
+        2
+      ],
+      "changes": [
+        "Run",
+        "Bbm",
+        "Gb",
+        "Hold"
+      ],
+      "collection_name": "Bb natural minor",
+      "departures": [],
+      "effective_bpm": 125.0,
+      "hand_split": 60,
+      "harmonic_rhythm": "Two bars of a single-note run, then chords on Bbm and Gb, then a two-bar hold.",
+      "id": "s08",
+      "identity": "Sixteen 16ths of a Bb minor line, then offbeat chords, then one chord held for two bars. Variation B starts with the chords and puts the run at the end.",
+      "layering": "The run sits above C4. Left hand enters with the Bbm chords, under C4.",
+      "limitations": "The run is monophonic inside the piano file. It is still the piano riff, not the bass.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Run",
+          "start_bar": 0
+        },
+        {
+          "bars": 6,
+          "name": "Bbm",
+          "start_bar": 2
+        },
+        {
+          "bars": 6,
+          "name": "Gb",
+          "start_bar": 8
+        },
+        {
+          "bars": 2,
+          "name": "Hold",
+          "start_bar": 14
+        }
+      ],
+      "pitch_classes": [
+        10,
+        0,
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      "seed": 12508,
+      "slug": "s08-run-and-hold",
+      "stochastic_draws": 0,
+      "tempo_us": 480000,
+      "title": "Run and Hold",
+      "tonal_reference": "Bb",
+      "tonic": "Bb",
+      "voicing": "The run is Bb C Db Eb F Gb. The chords are Bbm and Gb. The hold is Bb Db Eb Gb."
+    }
+  ]
+}

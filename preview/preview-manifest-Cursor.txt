@@ -1,0 +1,61 @@
+preview, not a master
+{
+  "arrangement_path": "midi/arrangement.mid",
+  "arrangement_sha256": "d923f600f4fc9692cd06ad716c3fc538f9afadb678b9c1f5b192764ec9a6b08a",
+  "encode": "libmp3lame CBR 192 kbps, mono source",
+  "excerpt": {
+    "bars": "1-16, the full container",
+    "end_tick": 61440,
+    "sequencing": "piano riff and bass reference, variation A, for the full 16 bars",
+    "start_tick": 0,
+    "study": "s01",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "100032047cbefe2a4ee81bf3b1e2ecb0a7e0c9dc1879059013d2adc0a7d69ac1",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "bass-reference": "sine at the written pitch, short attack, held for the written duration",
+    "piano-riff": "sine plus a quiet triangle, short attack, held for the written duration"
+  },
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "/home/runner/work/90s-piano-house-riffs/90s-piano-house-riffs/build/preview.wav",
+    "-codec:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "/home/runner/work/90s-piano-house-riffs/90s-piano-house-riffs/preview/preview.mp3"
+  ],
+  "mp3_path": "preview/preview.mp3",
+  "mp3_sha256": "e29a26e94a2955c1ed847b58762d80aedb82858f7c50d7e3ecd88ca0c7d37dc4",
+  "pack_id": "90s-piano-house-riffs",
+  "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+  "renderer": "simple-synth-1.0.0",
+  "renderer_note": "These voices are preview mappings. They are not encoded in the MIDI file.",
+  "rounding": "sample = floor(seconds * sample_rate + 0.5), computed from tick 0; intervals are not summed",
+  "sample_peak": 24296,
+  "sample_peak_dbfs": -2.598303120990183,
+  "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a true-peak measurement and it is not LUFS.",
+  "score_seconds": 31.475392,
+  "score_sha256": "4607250a61fa766b7aaace5d6fa035b92fa9d1a7e1c79153609b935de3bde932",
+  "seconds_encoded": 31.475397,
+  "source_parts": [
+    {
+      "id": "s01.riff.a",
+      "path": "midi/s01-offbeat-ninth/riff-a.mid",
+      "sha256": "1f920b89db4fb9e0da755f9697a3140efbeb53d1d92ac14f4cc04f749a55007c"
+    },
+    {
+      "id": "s01.bass.a",
+      "path": "midi/s01-offbeat-ninth/bass-a.mid",
+      "sha256": "3bb8641de796061d7614aadb3f669383a7e56a3448915ad87aa8700e5ca04d1c"
+    }
+  ],
+  "tempo_authority": "encoded MIDI tempo",
+  "tempo_us": 491803
+}
